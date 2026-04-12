@@ -6,10 +6,7 @@
 
 html {
   block-size: 100%;
-}
-
-button {
-  cursor: pointer;
+  overflow: hidden;
 }
 
 .page {
@@ -186,6 +183,7 @@ ol {
   border: 1px solid #FFFFFF;
   height: 34px;
   padding: 0;
+  cursor: pointer;
 }
 
 .button:focus {
